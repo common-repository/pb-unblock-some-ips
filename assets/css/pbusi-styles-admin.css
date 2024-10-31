@@ -1,0 +1,135 @@
+body #wpadminbar #wp-admin-bar-pbusi_toolbar_status_link .dashicons-yes-alt:before,
+html #wpadminbar #wp-admin-bar-pbusi_toolbar_status_link .dashicons-yes-alt:before {
+  color: #46b450;
+  padding-top: 2px;
+  display: inline-block;
+  margin-right: -2px;
+}
+body #wpadminbar #wp-admin-bar-pbusi_toolbar_status_link .dashicons-no:before,
+html #wpadminbar #wp-admin-bar-pbusi_toolbar_status_link .dashicons-no:before {
+  color: #ca4a1f;
+  padding-top: 3px;
+  display: inline-block;
+  margin-right: -2px;
+}
+body.settings_page_pb-unblock-some-ips,
+html.settings_page_pb-unblock-some-ips {
+  background: #8e1541;
+  background: linear-gradient(149deg, #8e1541 0%, #88113b 37%, #041428 100%);
+}
+body.settings_page_pb-unblock-some-ips .notice,
+html.settings_page_pb-unblock-some-ips .notice,
+body.settings_page_pb-unblock-some-ips div.error,
+html.settings_page_pb-unblock-some-ips div.error,
+body.settings_page_pb-unblock-some-ips div.updated,
+html.settings_page_pb-unblock-some-ips div.updated {
+  background-color: #000000;
+}
+body.settings_page_pb-unblock-some-ips .wrap,
+html.settings_page_pb-unblock-some-ips .wrap {
+  padding-top: 20px;
+}
+body.settings_page_pb-unblock-some-ips .wrap *,
+html.settings_page_pb-unblock-some-ips .wrap * {
+  color: #848484;
+  font-size: 14px;
+}
+body.settings_page_pb-unblock-some-ips .wrap * strong,
+html.settings_page_pb-unblock-some-ips .wrap * strong {
+  color: #ffffff !important;
+}
+body.settings_page_pb-unblock-some-ips .wrap *::selection,
+html.settings_page_pb-unblock-some-ips .wrap *::selection {
+  background-color: #0085ba;
+  color: #ffffff;
+}
+body.settings_page_pb-unblock-some-ips .wrap input[type=checkbox],
+html.settings_page_pb-unblock-some-ips .wrap input[type=checkbox],
+body.settings_page_pb-unblock-some-ips .wrap input[type=radio],
+html.settings_page_pb-unblock-some-ips .wrap input[type=radio],
+body.settings_page_pb-unblock-some-ips .wrap input[type=checkbox],
+html.settings_page_pb-unblock-some-ips .wrap input[type=checkbox],
+body.settings_page_pb-unblock-some-ips .wrap input[type=color],
+html.settings_page_pb-unblock-some-ips .wrap input[type=color],
+body.settings_page_pb-unblock-some-ips .wrap input[type=date],
+html.settings_page_pb-unblock-some-ips .wrap input[type=date],
+body.settings_page_pb-unblock-some-ips .wrap input[type=datetime-local],
+html.settings_page_pb-unblock-some-ips .wrap input[type=datetime-local],
+body.settings_page_pb-unblock-some-ips .wrap input[type=datetime],
+html.settings_page_pb-unblock-some-ips .wrap input[type=datetime],
+body.settings_page_pb-unblock-some-ips .wrap input[type=email],
+html.settings_page_pb-unblock-some-ips .wrap input[type=email],
+body.settings_page_pb-unblock-some-ips .wrap input[type=month],
+html.settings_page_pb-unblock-some-ips .wrap input[type=month],
+body.settings_page_pb-unblock-some-ips .wrap input[type=number],
+html.settings_page_pb-unblock-some-ips .wrap input[type=number],
+body.settings_page_pb-unblock-some-ips .wrap input[type=password],
+html.settings_page_pb-unblock-some-ips .wrap input[type=password],
+body.settings_page_pb-unblock-some-ips .wrap input[type=radio],
+html.settings_page_pb-unblock-some-ips .wrap input[type=radio],
+body.settings_page_pb-unblock-some-ips .wrap input[type=search],
+html.settings_page_pb-unblock-some-ips .wrap input[type=search],
+body.settings_page_pb-unblock-some-ips .wrap input[type=tel],
+html.settings_page_pb-unblock-some-ips .wrap input[type=tel],
+body.settings_page_pb-unblock-some-ips .wrap input[type=text],
+html.settings_page_pb-unblock-some-ips .wrap input[type=text],
+body.settings_page_pb-unblock-some-ips .wrap input[type=time],
+html.settings_page_pb-unblock-some-ips .wrap input[type=time],
+body.settings_page_pb-unblock-some-ips .wrap input[type=url],
+html.settings_page_pb-unblock-some-ips .wrap input[type=url],
+body.settings_page_pb-unblock-some-ips .wrap input[type=week],
+html.settings_page_pb-unblock-some-ips .wrap input[type=week],
+body.settings_page_pb-unblock-some-ips .wrap select,
+html.settings_page_pb-unblock-some-ips .wrap select,
+body.settings_page_pb-unblock-some-ips .wrap textarea,
+html.settings_page_pb-unblock-some-ips .wrap textarea {
+  background-color: transparent;
+}
+body.settings_page_pb-unblock-some-ips .wrap textarea,
+html.settings_page_pb-unblock-some-ips .wrap textarea {
+  color: #ffffff;
+  font-family: monospace;
+  padding: 7px;
+  line-height: 22px;
+  border-color: #616161;
+}
+body.settings_page_pb-unblock-some-ips .wrap input[type=submit],
+html.settings_page_pb-unblock-some-ips .wrap input[type=submit] {
+  color: #ffffff;
+}
+body.settings_page_pb-unblock-some-ips .wrap input[type=text],
+html.settings_page_pb-unblock-some-ips .wrap input[type=text] {
+  padding: 10px;
+  color: #ffffff;
+  width: 80%;
+  font-size: 110%;
+  letter-spacing: 0.5px;
+  font-family: monospace;
+  border-radius: 5px;
+  border-color: #616161;
+}
+body.settings_page_pb-unblock-some-ips .wrap input[type=text].admin-slug,
+html.settings_page_pb-unblock-some-ips .wrap input[type=text].admin-slug {
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+body.settings_page_pb-unblock-some-ips .wrap #pbusi_title_logo,
+html.settings_page_pb-unblock-some-ips .wrap #pbusi_title_logo {
+  filter: invert(1);
+}
+body.settings_page_pb-unblock-some-ips .wrap #poststuff,
+html.settings_page_pb-unblock-some-ips .wrap #poststuff {
+  background: rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  margin-top: 20px;
+}
+body.settings_page_pb-unblock-some-ips .wrap #poststuff .postbox,
+html.settings_page_pb-unblock-some-ips .wrap #poststuff .postbox {
+  border: 0;
+}
+body.settings_page_pb-unblock-some-ips .wrap #poststuff .postbox .inside,
+html.settings_page_pb-unblock-some-ips .wrap #poststuff .postbox .inside {
+  padding: 20px;
+  background-color: #000000;
+}

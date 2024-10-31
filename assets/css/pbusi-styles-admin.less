@@ -1,0 +1,117 @@
+body,
+html {
+	#wpadminbar #wp-admin-bar-pbusi_toolbar_status_link {
+		.dashicons-yes-alt:before {
+			color: #46b450;
+			padding-top: 2px;
+			display: inline-block;
+			margin-right: -2px;
+		}
+		.dashicons-no:before {
+			color: #ca4a1f;
+			padding-top: 3px;
+			display: inline-block;
+			margin-right: -2px;
+		}
+	}
+
+	&.settings_page_pb-unblock-some-ips {
+		background: rgb(142, 21, 65);
+		background: linear-gradient(149deg, rgba(142, 21, 65, 1) 0%, rgba(136, 17, 59, 1) 37%, rgba(4, 20, 40, 1) 100%);
+
+		.notice,
+		div.error,
+		div.updated {
+			background-color: #000000;
+		}
+
+		.wrap {
+			padding-top: 20px;
+
+			* {
+				color: #848484;
+				font-size: 14px;
+
+				strong {
+					color: #ffffff !important;
+				}
+
+				&::selection {
+					background-color: #0085ba;
+					color: #ffffff;
+				}
+			}
+
+			input[type=checkbox],
+			input[type=radio],
+			input[type=checkbox],
+			input[type=color],
+			input[type=date],
+			input[type=datetime-local],
+			input[type=datetime],
+			input[type=email],
+			input[type=month],
+			input[type=number],
+			input[type=password],
+			input[type=radio],
+			input[type=search],
+			input[type=tel],
+			input[type=text],
+			input[type=time],
+			input[type=url],
+			input[type=week],
+			select,
+			textarea {
+				background-color: transparent;
+			}
+
+			textarea {
+				color: #ffffff;
+				font-family: monospace;
+				padding: 7px;
+				line-height: 22px;
+				border-color: #616161;
+			}
+
+			input[type=submit] {
+				color: #ffffff;
+			}
+
+			input[type=text] {
+				padding: 10px;
+				color: #ffffff;
+				width: 80%;
+				font-size: 110%;
+				letter-spacing: 0.5px;
+				font-family: monospace;
+				border-radius: 5px;
+				border-color: #616161;
+
+				&.admin-slug {
+					width: 30%;
+					margin-left: 10px;
+					margin-right: 10px;
+				}
+			}
+
+			#pbusi_title_logo {
+				filter: invert(1);
+			}
+
+			#poststuff {
+				background: rgba(0, 0, 0, 0.15);
+				padding: 20px;
+				margin-top: 20px;
+
+				.postbox {
+					border: 0;
+
+					.inside {
+						padding: 20px;
+						background-color: #000000;
+					}
+				}
+			}
+		}
+	}
+}
